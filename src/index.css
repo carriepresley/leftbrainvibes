@@ -31,12 +31,24 @@ code {
 }
 
 .cp-card-image {
-  border-radius: 10px;
-  width: 400px;
-  height: 500px;
-  box-shadow: 0px 0px 3px 0px #ccc;
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  box-shadow:  33px 33px 66px #b1b1b1, 
+             -33px -33px 66px #ffffff;
 
 }
+.cp-card-image:hover{
+  -moz-transform: translate(-2px, -2px);
+  -ms-transform: translate(-2px, -2px);
+  -o-transform: translate(-2px, -2px);
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-2px, -2px);
+  
+  box-shadow:20px 20px 60px #b6b7b7, 
+             -20px -20px 60px #ffffff;
+}
+
 
 .cp-card-info {
   margin-top: 10px;
