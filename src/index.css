@@ -1,0 +1,109 @@
+html{
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cardo', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+ }
+
+ 
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cp-card {
+  margin: 20px;
+
+}
+
+.cp-card-image {
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  box-shadow: 0px 0px 3px 0px #ccc;
+
+}
+
+.cp-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+  
+}
+
+.cp-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.cp-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+  
+}
+
+.success-msg {
+  color:green;
+  padding:10px 15px;
+}
+
+.erro-msg {
+  color: red;
+  padding:10px 15px;
+}
+
+
+.nav-link {
+  font-size: 24px;
+  color: black;
+  
+  
+}
+.about-me-page {
+  display: table;
+  border: 2px solid green;
+  margin: 0 auto;
+}
+
+.left-text{
+  
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+  float: left;
+  width: 400px;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+ 
+}
+
+.right-picture {
+
+  align-content: left;
+  float: right;
+  width: 400px;
+  height: auto;
+
+
+}
+.contact-me-text{
+  font-family: 'Cardo', serif;
+  font-size: 20px;
+}
+
+img:hover {
+  cursor: pointer;
+}
