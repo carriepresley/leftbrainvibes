@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import logo from './assets/Webpage.jpg';
+import logo from './assets/happy2.png';
 import Socials from "./Components/Socials";
 
 
@@ -65,17 +65,18 @@ class App extends React.Component {
         <Navbar className = "border-bottom" bg='transparent' expand='lg'>
           <NavbarBrand>
             <a href="/">
-            <img src= {logo} style={{width:275, marginTop: -5}} alt = 'cp-logo'/>
+            <img src= {logo} style={{width:100, marginTop: -5}} alt = 'cp-logo'/>
             </a>
           </NavbarBrand>
           <Navbar.Toggle className ='border-0' aria controls ='navbar-toggle'></Navbar.Toggle>
           <Navbar.Collapse id = 'navbar-toggle'>
           <Nav className ='ml-auto dropdown-menu-right text-right'>
+       
+          <Link className ='nav-link' id = 'home-words'to ='/'>Home</Link>
+          <Link className ='nav-link' id = 'courses-words'to ='/courses'>Courses</Link>
+          <Link className ='nav-link' id= 'about-words'to ='/about'>About</Link>
+          <Link className ='nav-link' id= 'contact-words'to ='/contact'>Contact</Link>
           
-          <Link className ='nav-link'to ='/'>Home</Link>
-          <Link className ='nav-link'to ='/courses'>Courses</Link>
-          <Link className ='nav-link'to ='/about'>About</Link>
-          <Link className ='nav-link'to ='/contact'>Contact</Link>
           <Socials/>
           </Nav>
           </Navbar.Collapse>

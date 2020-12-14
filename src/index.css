@@ -1,10 +1,16 @@
-html{
-  background-color: black;
+
+#about-words{
+  color: white;
+
 }
 
+#about-words:hover{
+  color:#ff6699;
+
+}
 body {
   margin: 0;
-  font-family: 'Cardo', serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -13,20 +19,39 @@ body {
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-weight: 100;
+  font-size: 30px;
   text-transform: uppercase;
+  color:white;
  }
 
- 
+ p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ }
 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#courses-words{
+  color: white;
+}
 
+#courses-words:hover{
+  color:#ccff33;
+
+}
+
+#contact-words{
+  color:white;
+}
+
+#contact-words:hover{
+  color:#cc9966;
+}
 .cp-card {
-  margin: 20px;
+  margin: 30px 10px 30px 10px;
 
 }
 
@@ -34,8 +59,7 @@ code {
   border-radius: 30px;
   width: 300px;
   height: 300px;
-  box-shadow:  33px 33px 66px #b1b1b1, 
-             -33px -33px 66px #ffffff;
+ 
 
 }
 .cp-card-image:hover{
@@ -44,21 +68,22 @@ code {
   -o-transform: translate(-2px, -2px);
   -webkit-transform: translate(-2px, -2px);
   transform: translate(-2px, -2px);
-  
-  box-shadow:20px 20px 60px #b6b7b7, 
-             -20px -20px 60px #ffffff;
+  box-shadow:  13px 13px 26px #0c0c0c, 
+  -13px -13px 26px #303232;
 }
 
 
 .cp-card-info {
   margin-top: 10px;
   min-height: 100px;
+  color: grey;
   
 }
 
 .cp-card-title {
   font-size: 24px;
   margin: 0px;
+  color: grey;
 }
 
 .cp-card-sub-title {
@@ -76,14 +101,26 @@ code {
   color: red;
   padding:10px 15px;
 }
+#footer-words{
+  color: white;
+}
+#home-words{
+  color: white;
+}
 
-
+#home-words:hover{
+  color:#ff6633;
+}
 .nav-link {
   font-size: 24px;
-  color: black;
-  
-  
+  color: grey;
 }
+
+  #navbar-toggle{
+
+  }
+  
+
 .about-me-page {
   display: table;
   border: 2px solid green;
@@ -99,6 +136,7 @@ code {
   height: auto;
   padding: 5px 5px 5px 5px;
   margin: 10px 10px 10px 10px;
+  color: white;
  
 }
 
@@ -119,3 +157,9 @@ code {
 img:hover {
   cursor: pointer;
 }
+
+.p-0{
+  background-color: black;
+
+}
+

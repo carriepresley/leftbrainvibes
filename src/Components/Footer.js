@@ -8,8 +8,8 @@ function Footer(){
         <div>
             <footer className="mt-5">
             <Container fluid = {true}>
-                <Col className ='container text-center p-10 navbar-text col-md-12 col-sm-12 col-xs-12' >
-                &#169;2020 Carrie Presley &#160; &#160; Made with &hearts; in TX.
+                <Col className ='container text-center p-10 navbar-text col-md-12 col-sm-12 col-xs-12' id = 'footer-words'>
+                &#169;2020 Left Brain Vibes, LLC  &#160; &#160; Made with &hearts; in TX.
                 </Col>
             </Container>
             </footer>
