@@ -10,9 +10,8 @@ function HomePage(props) {
             We keep the left brain vibes chill by bringing <font color = '#ff6633'>creativity</font> to <font color ='#cc9966'>analytical</font>, <font color = '#ff6699'>mathematical</font> learning.
         </p>
         <div className= 'd-flex justify-content-center'>
-        <a href="https://twitter.com" id ="button2">Let's Start!</a>
+        <a href="/courses" id ="button2">Let's Start!</a>
         </div>
-
         </div>
     );
 }
