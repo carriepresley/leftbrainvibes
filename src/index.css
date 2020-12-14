@@ -1,6 +1,7 @@
 
 #about-words{
   color: white;
+  margin-right: 10px;
 
 }
 
@@ -36,6 +37,7 @@ code {
 }
 #courses-words{
   color: white;
+  margin-right: 10px;
 }
 
 #courses-words:hover{
@@ -45,6 +47,7 @@ code {
 
 #contact-words{
   color:white;
+  margin-right: 10px;
 }
 
 #contact-words:hover{
@@ -80,6 +83,7 @@ code {
   
 }
 
+
 .cp-card-title {
   font-size: 24px;
   margin: 0px;
@@ -106,20 +110,22 @@ code {
 }
 #home-words{
   color: white;
+  margin-right: 10px;
 }
 
 #home-words:hover{
   color:#ff6633;
 }
+#home-p-text{
+  color: white;
+  margin: 70px 20px 20px 20px;
+  font-size: 75px;
+  
+}
 .nav-link {
   font-size: 24px;
   color: grey;
 }
-
-  #navbar-toggle{
-
-  }
-  
 
 .about-me-page {
   display: table;
@@ -163,3 +169,34 @@ img:hover {
 
 }
 
+#button2{
+  display: inline-block;
+  padding:0.5em 3em;
+  border:0.16em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  font-size: 24px;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.15s;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  
+  }
+
+  #button2:hover{
+  color:#DDDDDD;
+  border-color:#ccff33;
+  }
+  #button2:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+  }
+  

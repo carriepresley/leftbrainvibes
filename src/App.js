@@ -62,7 +62,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid = {true}>
-        <Navbar className = "border-bottom" bg='transparent' expand='lg'>
+        <Navbar className = "border-bottom navbar-dark" bg='transparent' expand='lg'>
           <NavbarBrand>
             <a href="/">
             <img src= {logo} style={{width:100, marginTop: -5}} alt = 'cp-logo'/>
@@ -70,7 +70,7 @@ class App extends React.Component {
           </NavbarBrand>
           <Navbar.Toggle className ='border-0' aria controls ='navbar-toggle'></Navbar.Toggle>
           <Navbar.Collapse id = 'navbar-toggle'>
-          <Nav className ='ml-auto dropdown-menu-right text-right'>
+          <Nav id ="toggy" className ='ml-auto dropdown-menu-right text-right'>
        
           <Link className ='nav-link' id = 'home-words'to ='/'>Home</Link>
           <Link className ='nav-link' id = 'courses-words'to ='/courses'>Courses</Link>
