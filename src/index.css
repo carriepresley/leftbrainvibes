@@ -9,11 +9,20 @@
   color:#ff6699;
 
 }
+html{
+  min-height: 100%;
+  overflow-y:scroll;
+  background-color: black;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  
+  
   
 }
 
@@ -28,9 +37,12 @@ h1 {
  p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  color: white;
  }
 
-
+.p-0{
+  background-color: black;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -117,23 +129,31 @@ code {
   color:#ff6633;
 }
 
-#home-gif{
+.home-gif{
   width: 100%;
   max-width: 100%; 
   height: auto;
+  float: right;
+ 
 }
 
 
-#home-p-text{
+
+.home-p {
   color: white;
-  margin: 70px 20px 20px 20px;
+  margin: 15px 20px;
   font-size: 75px;
-  
+  height: auto;
+  width: auto;
+
 }
 
-#home-hero{
-  background-image: url('./assets/gif.gif')
+.hero-set{
+  position: relative;
+
 }
+
+
 .nav-link {
   font-size: 24px;
   color: grey;
@@ -176,16 +196,14 @@ img:hover {
   cursor: pointer;
 }
 
-.p-0{
-  background-color: black;
 
-}
 
-#button2{
-  display: inline-block;
-  padding:0.5em 3em;
+.button2{
+ 
+  padding: 20px;
   border:0.16em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
+  margin-left: 75px;
+  margin-top: 33px;
   box-sizing: border-box;
   text-decoration:none;
   text-transform:uppercase;
@@ -201,15 +219,47 @@ img:hover {
   justify-content: center;
   align-items: center;
   
+  
+ 
+  
+
+  
   }
 
-  #button2:hover{
+  .button2:hover{
   color:#DDDDDD;
   border-color:#ccff33;
+  text-decoration: none;
   }
-  #button2:active{
+  .button2:active{
   color:#BBBBBB;
   border-color:#BBBBBB;
   }
   
  
+
+ @media only screen and (min-width: 768px) {
+  
+
+ 
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 800px) {
+  /* phones */
+  .home-p{
+     font-size: 35px;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* portrait phones */
+
+  .home-p{
+    font-size: 35px;
+ }
+
+
+}
