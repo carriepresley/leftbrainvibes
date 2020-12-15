@@ -116,11 +116,23 @@ code {
 #home-words:hover{
   color:#ff6633;
 }
+
+#home-gif{
+  width: 100%;
+  max-width: 100%; 
+  height: auto;
+}
+
+
 #home-p-text{
   color: white;
   margin: 70px 20px 20px 20px;
   font-size: 75px;
   
+}
+
+#home-hero{
+  background-image: url('./assets/gif.gif')
 }
 .nav-link {
   font-size: 24px;
@@ -200,3 +212,4 @@ img:hover {
   border-color:#BBBBBB;
   }
   
+ 

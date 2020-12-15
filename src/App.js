@@ -65,7 +65,7 @@ class App extends React.Component {
         <Navbar className = "border-bottom navbar-dark" bg='transparent' expand='lg'>
           <NavbarBrand>
             <a href="/">
-            <img src= {logo} style={{width:100, marginTop: -5}} alt = 'cp-logo'/>
+            <img src= {logo} style={{width:100, marginTop: -5}} alt = 'happy face logo'/>
             </a>
           </NavbarBrand>
           <Navbar.Toggle className ='border-0' aria controls ='navbar-toggle'></Navbar.Toggle>
