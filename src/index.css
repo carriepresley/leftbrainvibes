@@ -118,7 +118,8 @@ code {
   padding:10px 15px;
 }
 #footer-words{
-  color: white;
+  color:grey;
+  margin-top: 100px;
 }
 #home-words{
   color: white;
@@ -141,7 +142,7 @@ code {
 
 .home-p {
   color: white;
-  margin: 15px 20px;
+  margin: 20px 60px;
   font-size: 75px;
   height: auto;
   width: auto;
@@ -157,6 +158,8 @@ code {
 .nav-link {
   font-size: 24px;
   color: grey;
+  letter-spacing: 1px;
+  margin-left: 10px;
 }
 
 .about-me-page {
@@ -201,23 +204,25 @@ img:hover {
 .button2{
  
   padding: 20px;
-  border:0.16em solid #FFFFFF;
-  margin-left: 75px;
+  border:0.10em solid white;
+  margin-left: 45px;
   margin-top: 33px;
   box-sizing: border-box;
   text-decoration:none;
   text-transform:uppercase;
-  font-family:'Roboto',sans-serif;
-  font-weight:400;
-  font-size: 24px;
+  font-family:'Oswald',sans-serif;
+  font-weight:100;
+  font-size: 33px;
   color:#FFFFFF;
   text-align:center;
+  letter-spacing: 2px;
   transition: all 0.15s;
   display: flex;
   width: 400px;
   height: 100px;
   justify-content: center;
   align-items: center;
+  display: flex;
   
   
  
@@ -228,13 +233,10 @@ img:hover {
 
   .button2:hover{
   color:#DDDDDD;
-  border-color:#ccff33;
   text-decoration: none;
+  border:0.15em solid #ccff33;
   }
-  .button2:active{
-  color:#BBBBBB;
-  border-color:#BBBBBB;
-  }
+ 
   
  
 
@@ -250,7 +252,7 @@ img:hover {
   .home-p{
      font-size: 35px;
   }
-
+ 
  
 }
 

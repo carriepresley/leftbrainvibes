@@ -1,6 +1,11 @@
 import React from "react";
 import gif from "../assets/gif.gif";
-
+import {
+    BrowserRouter as Router,
+    Link,
+    Route,
+    Switch,
+  } from 'react-router-dom';
 
 
 
@@ -16,7 +21,7 @@ function HomePage(props) {
         </div>
         <div className ='row'>
         <div className = 'col-md-6'>
-            <a href="/courses" className ="button2">Let's Start!</a>
+            <Link to = '/courses' className ="button2">Let's Start!</Link>
             </div>
 
            
