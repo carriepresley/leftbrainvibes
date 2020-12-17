@@ -10,7 +10,7 @@ function AboutPage(props) {
                 
             
             <Content>
-            <img src= {About} alt = 'Carrie with a longboard and moscow mule' />
+            <img src= {About} alt = '' />
             <div className = 'left-text'>
              <p>Hey, what's up? I'm Carrie. 
              <br></br>

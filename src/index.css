@@ -72,8 +72,8 @@ code {
 
 .cp-card-image {
   border-radius: 30px;
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
  
 
 }
@@ -135,6 +135,7 @@ code {
   max-width: 100%; 
   height: auto;
   float: right;
+  position: relative;
  
 }
 
@@ -204,7 +205,7 @@ img:hover {
 .button2{
  
   padding: 20px;
-  border:0.10em solid white;
+  border:0.10em solid #ccff33;
   margin-left: 45px;
   margin-top: 33px;
   box-sizing: border-box;
@@ -223,7 +224,8 @@ img:hover {
   justify-content: center;
   align-items: center;
   display: flex;
-  
+  position: relative;
+  z-index: 1;
   
  
   
@@ -234,7 +236,7 @@ img:hover {
   .button2:hover{
   color:#DDDDDD;
   text-decoration: none;
-  border:0.15em solid #ccff33;
+  border:0.15em solid white;
   }
  
   
@@ -242,7 +244,10 @@ img:hover {
 
  @media only screen and (min-width: 768px) {
   
+.home-p{
+  margin-right: 300px;
 
+}
  
   /* tablets and desktop */
 }
