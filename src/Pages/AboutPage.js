@@ -13,15 +13,17 @@ function AboutPage(props) {
              <p className = 'about-me'>Hey, what's up? 
              <br></br>
              <br></br>
-             I'm Carrie Presley, the tech-discovering, mistake-making, fumbling and learning creator behind Left Brain Vibes.
+             I'm Carrie Presley, the tech-discovering, mistake-making, always-learning creator behind Left Brain Vibes.
              <br></br>
              <br></br>
-            While teaching high school math, I realized how boring learning analytical, logical, left brain-ish things can be.  
-            
+            While teaching high school math, I realized how boring learning analytical, logical, left brain-ish ideas can be.
             One day, I decided to take my wild & rebellous ways of teaching to the interwebs and created Left Brain Vibes. 
             <br></br>
             <br></br>
-            Classroom troublemakers, "Non-Math People", rebels, artists, whoever you are... you are welcome here. Good vibes your way!
+            To the classroom troublemakers, the "Non-Math People", the rebels to traditional education, the artists, to anyone and everyone... YOU are welcome here. 
+            <br></br>
+            <br></br>
+            Good vibes your way!
              </p>
             </div>
             <div className = "col-lg-6 justify-content-center">

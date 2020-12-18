@@ -87,6 +87,13 @@ img:hover {
   color:#cc9966;
 }
 
+.social-images{
+  -webkit-transform:rotateZ(0);
+  -moz-transform:rotateZ(0);
+  -o-transform:rotateZ(0);
+  transform:rotateZ(0);
+}
+
 
 
 /*Card/Courses Styling*/
@@ -117,7 +124,7 @@ img:hover {
 }
 
 .cp-card-title {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0px;
   color: grey;
 }
@@ -136,6 +143,14 @@ img:hover {
  
 }
 
+.card-link{
+  color: palevioletred;
+  font-size: 24px;
+}
+
+.card-link:hover{
+  color: white;
+}
 /*About Page Styling*/
 
 .success-msg {
@@ -218,10 +233,10 @@ img:hover {
   }
 
   /*Contact Page*/
-  .contact-me-text{
-    font-family: 'Cardo', serif;
-    font-size: 20px;
-    color: white;
+  .contact-me{
+    font-size: 22px;
+    letter-spacing: 0.33px;
+    margin-top: 20px;
   }
   
  /*Media Queries*/

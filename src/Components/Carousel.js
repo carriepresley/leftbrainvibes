@@ -15,8 +15,8 @@ class Carousel extends React.Component {
             items: [
                 {
                     id:0,
-                    title: 'ADDING INTEGERS',
-                    subTitle: 'Check out some of my projects on GitHub!',
+                    title: 'ADD INTEGERS',
+                    subTitle: 'How do I add negative numbers?',
                     imgSrc: AddIntegers,
                     link: "https://www.youtube.com/watch?v=XXWpJ__Ab_g&ab_channel=CarriePresley",
                     selected: false

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Container} from 'react-bootstrap';
-import twitter from '../assets/twitter.png';
-import instagram from '../assets/instagram.png';
-import tiktok from '../assets/tik-tok.png';
+import twitter from '../assets/twitter2.png';
+import instagram from '../assets/instagram2.png';
+import tiktok from '../assets/tiktok.png';
 import facebook from '../assets/facebook.png'
 
 
