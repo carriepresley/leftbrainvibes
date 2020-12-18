@@ -1,10 +1,8 @@
 import React from "react";
 import gif from "../assets/gif.gif";
 import {
-    BrowserRouter as Router,
-    Link,
-    Route,
-    Switch,
+    BrowserRouter as
+    Link
   } from 'react-router-dom';
 
 
