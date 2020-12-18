@@ -16,7 +16,7 @@ function HomePage(props) {
     <div className= 'row text-left'>
         <div className = 'col-lg-12'>
         <p  className ='home-p'>
-             We keep the left brain vibes chill with a splash of <font color = '#ff6633'>creativity</font> on <font color ='#cc9966'>analytical</font>, <font color = '#ff6699'>mathematical</font> learning.
+             We keep the left brain vibes chill with a splash of <font color = '#ff6633'>creativity</font> woven into <font color ='#cc9966'>analytical</font>, <font color = '#ff6699'>mathematical</font> learning.
         </p>
         </div>
         <div className ='row'>
