@@ -1,10 +1,10 @@
 import React from "react";
 import gif from "../assets/gif.gif";
 import {
-    BrowserRouter as
+    BrowserRouter as Router,
+    Route,
     Link
-  } from 'react-router-dom';
-
+  } from "react-router-dom";
 
 
 function HomePage(props) {
