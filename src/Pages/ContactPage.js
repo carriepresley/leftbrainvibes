@@ -1,17 +1,23 @@
 import React from 'react';
 import ContactForm from "../Components/ContactForm";
 import Hero from '../Components/Hero';
-import Content from "../Components/Content";
 
 
 function ContactPage(props) {
     return (
         <div>
-            <Hero title={props.title} subTitle={props.subTitle}/>
-            <Content>
-            <p className = 'contact-me-text'>
+        <Hero title={props.title} subTitle={props.subTitle}/>
+
+     <div className='row text-center'>
+            <div className = 'col-lg-12 d-flex justify-content-center'>
+            <p>
+            What topics should I cover next? 
+            <br></br>Did I mess up? Probs.
+            <br></br> Holla at me. 
             </p>
-            </Content>
+            </div>
+            </div>
+           
             <ContactForm/>
         </div>
     );

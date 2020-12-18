@@ -1,14 +1,4 @@
-
-#about-words{
-  color: white;
-  margin-right: 10px;
-
-}
-
-#about-words:hover{
-  color:#ff6699;
-
-}
+/*Page Styles*/
 html{
   min-height: 100%;
   overflow-y:scroll;
@@ -21,9 +11,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100%;
-  
-  
-  
 }
 
 
@@ -40,13 +27,39 @@ h1 {
   color: white;
  }
 
-.p-0{
+ .p-0{
   background-color: black;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img:hover {
+  cursor: pointer;
+}
+
+
+/*Footer */
+#footer-words{
+  color: #666660;
+  margin-top: 100px;
+}
+
+/*Nav Links*/
+
+
+#home-words{
+  color: white;
+  margin-right: 10px;
+}
+
+#home-words:hover{
+  color:#ff6633;
+}
+
+
 #courses-words{
   color: white;
   margin-right: 10px;
@@ -54,7 +67,15 @@ code {
 
 #courses-words:hover{
   color:#ccff33;
+}
 
+#about-words{
+  color: white;
+  margin-right: 10px;
+}
+
+#about-words:hover{
+  color:#ff6699;
 }
 
 #contact-words{
@@ -65,17 +86,19 @@ code {
 #contact-words:hover{
   color:#cc9966;
 }
+
+
+
+/*Card/Courses Styling*/
+
 .cp-card {
   margin: 30px 10px 30px 10px;
-
 }
 
 .cp-card-image {
   border-radius: 30px;
-  width: 275px;
-  height: 275px;
- 
-
+  width: 400px;
+  height: 500px;
 }
 .cp-card-image:hover{
   -moz-transform: translate(-2px, -2px);
@@ -87,14 +110,11 @@ code {
   -13px -13px 26px #303232;
 }
 
-
 .cp-card-info {
   margin-top: 10px;
   min-height: 100px;
   color: grey;
-  
 }
-
 
 .cp-card-title {
   font-size: 24px;
@@ -108,6 +128,16 @@ code {
   
 }
 
+.search-bar{
+  justify-content: center;
+  display: flex;
+  width: 400px;
+  height: 50px;
+ 
+}
+
+/*About Page Styling*/
+
 .success-msg {
   color:green;
   padding:10px 15px;
@@ -117,18 +147,14 @@ code {
   color: red;
   padding:10px 15px;
 }
-#footer-words{
-  color:grey;
-  margin-top: 100px;
-}
-#home-words{
-  color: white;
-  margin-right: 10px;
+
+.about-me{
+  margin: 35px;
+  font-size: 22px;
+  letter-spacing: 0.33px;
 }
 
-#home-words:hover{
-  color:#ff6633;
-}
+/*HomePage Styling*/
 
 .home-gif{
   width: 100%;
@@ -136,10 +162,7 @@ code {
   height: auto;
   float: right;
   position: relative;
- 
 }
-
-
 
 .home-p {
   color: white;
@@ -152,7 +175,6 @@ code {
 
 .hero-set{
   position: relative;
-
 }
 
 
@@ -162,44 +184,6 @@ code {
   letter-spacing: 1px;
   margin-left: 10px;
 }
-
-.about-me-page {
-  display: table;
-  border: 2px solid green;
-  margin: 0 auto;
-}
-
-.left-text{
-  
-  font-family: 'Cardo', serif;
-  font-size: 20px;
-  float: left;
-  width: 400px;
-  height: auto;
-  padding: 5px 5px 5px 5px;
-  margin: 10px 10px 10px 10px;
-  color: white;
- 
-}
-
-.right-picture {
-
-  align-content: left;
-  float: right;
-  width: 400px;
-  height: auto;
-
-
-}
-.contact-me-text{
-  font-family: 'Cardo', serif;
-  font-size: 20px;
-}
-
-img:hover {
-  cursor: pointer;
-}
-
 
 
 .button2{
@@ -225,12 +209,6 @@ img:hover {
   align-items: center;
   display: flex;
   position: relative;
- 
-  
- 
-  
-
-  
   }
 
   .button2:hover{
@@ -238,9 +216,15 @@ img:hover {
   text-decoration: none;
   border:0.15em solid white;
   }
- 
+
+  /*Contact Page*/
+  .contact-me-text{
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    color: white;
+  }
   
- 
+ /*Media Queries*/
 
  @media only screen and (min-width: 768px) {
   

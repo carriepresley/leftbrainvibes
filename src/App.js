@@ -42,18 +42,18 @@ class App extends React.Component {
       },
 
        course: {
-        title: "Course Catalog",
+        title: "Courses",
         subTitle: "What are you hoping to learn?",
         text: ""
 
       },
 
       about: {
-        title: "About Me",
+        title: "About",
       },
 
       contact: {
-        title: "Contact Me"
+        title: "Contact"
       }
     }
   }
