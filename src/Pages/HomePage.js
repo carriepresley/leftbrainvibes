@@ -19,7 +19,11 @@ function HomePage(props) {
         </div>
         <div className ='row'>
         <div className = 'col-md-6'>
+        <Router>
+        <Route>
             <Link to = '/courses' className ="button2">Let's Start!</Link>
+            </Route>
+            </Router>
             </div>
 
            
