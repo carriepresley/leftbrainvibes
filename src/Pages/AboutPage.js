@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from '../Components/Hero';
-import About from "../assets/HomePage_2.jpg"
+import About from "../assets/HomePage_2.png"
 
 function AboutPage(props) {
     return (

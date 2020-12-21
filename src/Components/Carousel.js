@@ -1,5 +1,6 @@
 import React from "react";
 import AddIntegers from '../assets/addintegers.png';
+import MDIntegers from "../assets/MultDivIntegers.png"
 
 import Card from "../Components/Card";
 import { Container } from "react-bootstrap";
@@ -24,7 +25,7 @@ class Carousel extends React.Component {
                 {   id:1,
                     title: 'INSTRUCTIONAL DESIGN',
                     subTitle: 'Public portfolio linked soon!',
-                    imgSrc: AddIntegers,
+                    imgSrc: MDIntegers,
                     link:'https://www.youtube.com/watch?v=ejqLa48h0pc&ab_channel=CarriePresley',
                     selected: false
 
