@@ -238,6 +238,17 @@ img:hover {
     letter-spacing: 0.33px;
     margin-top: 20px;
   }
+  #submitbutton{
+    font-size: 22px;
+    background-color: #ffcc00;
+    border-color: white;
+    color: black;
+  }
+
+  #submitbutton:hover{
+    font-size: 22px;
+    background-color: #cc9966;
+  }
   
  /*Media Queries*/
 
