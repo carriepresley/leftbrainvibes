@@ -17,27 +17,20 @@ class Carousel extends React.Component {
                 {
                     id:0,
                     title: 'ADD INTEGERS',
-                    subTitle: 'How do I add negative numbers?',
+                    subTitle: 'Link coming soon!',
                     imgSrc: AddIntegers,
                     link: "",
                     selected: false
                 },
                 {   id:1,
-                    title: 'INSTRUCTIONAL DESIGN',
-                    subTitle: 'Public portfolio linked soon!',
+                    title: 'MULTIPLY & DIVIDE INTEGERS',
+                    subTitle: 'Link coming soon!',
                     imgSrc: MDIntegers,
                     link:'',
                     selected: false
 
                 },
-                {   id:2,
-                    title: 'INSTRUCTIONAL DESIGN',
-                    subTitle: 'Public portfolio linked soon!',
-                    imgSrc: AddIntegers,
-                    link:'',
-                    selected: false
-
-                },
+                
              
                 
             ]
