@@ -19,14 +19,14 @@ class Carousel extends React.Component {
                     title: 'ADD INTEGERS',
                     subTitle: 'How do I add negative numbers?',
                     imgSrc: AddIntegers,
-                    link: "https://www.youtube.com/watch?v=XXWpJ__Ab_g&ab_channel=CarriePresley",
+                    link: "",
                     selected: false
                 },
                 {   id:1,
                     title: 'INSTRUCTIONAL DESIGN',
                     subTitle: 'Public portfolio linked soon!',
                     imgSrc: MDIntegers,
-                    link:'https://www.youtube.com/watch?v=ejqLa48h0pc&ab_channel=CarriePresley',
+                    link:'',
                     selected: false
 
                 },
@@ -34,7 +34,7 @@ class Carousel extends React.Component {
                     title: 'INSTRUCTIONAL DESIGN',
                     subTitle: 'Public portfolio linked soon!',
                     imgSrc: AddIntegers,
-                    link:'https://www.youtube.com/watch?v=ejqLa48h0pc&ab_channel=CarriePresley',
+                    link:'',
                     selected: false
 
                 },
